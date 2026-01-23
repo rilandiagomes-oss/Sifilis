@@ -1,2 +1,3 @@
-print("✅ Python rodou com sucesso no GitHub Actions!")
+print("SCRIPT TESTE FUNCIONOU ✅")
+
 
