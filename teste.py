@@ -1,1 +1,2 @@
-print("Meu código rodou no GitHub!")
+print("✅ Python rodou com sucesso no GitHub Actions!")
+
