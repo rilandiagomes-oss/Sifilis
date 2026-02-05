@@ -114,11 +114,11 @@ function avaliar(){
 
   const d1=new Date(d1Input);
   const hoje=new Date();
-  if(d1>hoje){ alert("Data da 1ª dose futura inválida."); return; }
+  if(d1=hoje){ alert("Data da 1ª dose futura inválida."); return; }
 
   // Tratamento
   let esquema="";
-  let msg="Tratamento adequado ✔️";
+  let msg="✔️ Tratamento indicado";
   let obs="";
 
   if(tipo==="recente"){
