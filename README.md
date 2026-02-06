@@ -51,9 +51,9 @@
 
   <div class="radio-group" id="criteriosPopGeral" style="display:none;">
     <span class="subtitulo">População geral – Sífilis adquirida <span style="color:red">*</span>:</span>
-    <label><input type="radio" name="pop_situacao" value="sit1"> Situação 1: Assintomático, apenas teste treponêmico reagente (teste rápido).</label>
-    <label><input type="radio" name="pop_situacao" value="sit2"> Situação 2: Assintomático ou sintomático, teste não treponêmico reagente + treponêmico reagente.</label>
-    <label><input type="radio" name="pop_situacao" value="sit3"> Situação 3: Sintomático, pelo menos um teste reagente.</label>
+    <label><input type="radio" name="pop_situacao" value="sit1"> Situação 1: Assintomático, com teste rápido reagente.</label>
+    <label><input type="radio" name="pop_situacao" value="sit2"> Situação 2: Assintomático com VDRL e/ou teste rapido reagente.</label>
+    <label><input type="radio" name="pop_situacao" value="sit3"> Situação 3: Sintomático, xom pelo menos um teste reagente.</label>
   </div>
 
   <button class="avaliar-btn" onclick="avaliar()">Avaliar caso</button>
