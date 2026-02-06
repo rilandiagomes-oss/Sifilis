@@ -53,7 +53,7 @@
     <span class="subtitulo">População geral – Sífilis adquirida <span style="color:red">*</span>:</span>
     <label><input type="radio" name="pop_situacao" value="sit1"> Situação 1: Assintomático, com teste rápido reagente.</label>
     <label><input type="radio" name="pop_situacao" value="sit2"> Situação 2: Assintomático com VDRL e/ou teste rapido reagente.</label>
-    <label><input type="radio" name="pop_situacao" value="sit3"> Situação 3: Sintomático, xom pelo menos um teste reagente.</label>
+    <label><input type="radio" name="pop_situacao" value="sit3"> Situação 3: Sintomático, com pelo menos um teste reagente.</label>
   </div>
 
   <button class="avaliar-btn" onclick="avaliar()">Avaliar caso</button>
