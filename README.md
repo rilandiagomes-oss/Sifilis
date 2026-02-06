@@ -46,13 +46,13 @@
     <option value="tardia">Tardia (latente tardia >1 ano, latente ignorada, terciária)</option>
   </select>
 
-  <label>Data da 1ª dose <span style="color:red">*</span></label>
+  <label>Data da 1ª dose (Penicilina Benzatina) <span style="color:red">*</span></label>
   <input type="date" id="dose1">
 
   <div class="radio-group" id="criteriosPopGeral" style="display:none;">
     <span class="subtitulo">População geral – Sífilis adquirida <span style="color:red">*</span>:</span>
     <label><input type="radio" name="pop_situacao" value="sit1"> Situação 1: Assintomático, com teste rápido reagente.</label>
-    <label><input type="radio" name="pop_situacao" value="sit2"> Situação 2: Assintomático com VDRL e/ou teste rapido reagente.</label>
+    <label><input type="radio" name="pop_situacao" value="sit2"> Situação 2: Assintomático com VDRL reagente.</label>
     <label><input type="radio" name="pop_situacao" value="sit3"> Situação 3: Sintomático, com pelo menos um teste reagente.</label>
   </div>
 
