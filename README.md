@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Apoio à Indicação – Sífilis</title>
+  <title>Tratamento e notificação – Sífilis</title>
   <style>
     body { font-family: Arial; background: #f4f6f8; padding: 20px; }
     .box { background: #fff; padding: 20px; border-radius: 8px; max-width: 700px; margin: auto; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
@@ -42,8 +42,8 @@
   <label>Classificação da sífilis <span style="color:red">*</span></label>
   <select id="tipo" onchange="limparResultados()">
     <option value="" selected>Selecione</option>
-    <option value="recente">Recente (primária, secundária, latente recente ≤1 ano)</option>
-    <option value="tardia">Tardia (latente tardia >1 ano, latente ignorada, terciária)</option>
+    <option value="recente">Primária, secundária, latente recente ≤1 ano</option>
+    <option value="tardia">Latente tardia >1 ano, latente ignorada, terciária</option>
   </select>
 
   <label>Data da 1ª dose (Penicilina Benzatina) <span style="color:red">*</span></label>
