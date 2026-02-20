@@ -42,8 +42,8 @@
   <label>Classificação da sífilis <span style="color:red">*</span></label>
   <select id="tipo" onchange="limparResultados()">
     <option value="" selected>Selecione</option>
-    <option value="recente">Primária, secundária, latente recente ≤1 ano</option>
-    <option value="tardia">Latente tardia >1 ano, latente ignorada, terciária</option>
+    <option value="recente">Sífilis recente( Primária, secundária, latente recente ≤1 ano</option)>
+    <option value="tardia">Sífilis tardia (Latente tardia >1 ano, latente ignorada, terciária)</option>
   </select>
 
   <label>Data da 1ª dose (Penicilina Benzatina) <span style="color:red">*</span></label>
