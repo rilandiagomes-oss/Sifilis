@@ -150,7 +150,7 @@ function avaliar(){
     }
   }
 
-  document.getElementById("notificacao").innerText=notificacao;
+  document.getElementById("notificacao").innerText = notificacao.replace(/<\/?div>|<\/?body>|<\/?html>/gi,"");
 }
 
 function mostrarDefinicoes(){
