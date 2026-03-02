@@ -114,7 +114,7 @@ function avaliar(){
   }
 
   let esquema="";
-  let msg="✔️ Tratamento indicado";
+  let msg="✔️ Tratamento e notificação";
   let obs="";
 
   if(tipo==="recente"){
