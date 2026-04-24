@@ -102,7 +102,7 @@ function avaliar(){
   let obs="";
 
   if(tipo==="recente"){
-    esquema=`💊 Tratamento:\n1ª dose: ${formatarData(d1)}`;
+    esquema=`💊 Tratamento:\nBenzilpenicilina benzatina 2,4 milhões UI IM (dose única)\nData: ${formatarData(d1)}`;
   } else{
     const d2=new Date(d1); d2.setDate(d2.getDate()+7);
     const d3=new Date(d2); d3.setDate(d3.getDate()+7);
@@ -110,7 +110,8 @@ function avaliar(){
     esquema=`💊 Tratamento:\n`+
              `1ª dose: ${formatarData(d1)}\n`+
              `2ª dose: ${formatarData(d2)}\n`+
-             `3ª dose: ${formatarData(d3)}`;
+             `3ª dose: ${formatarData(d3)}\n`+
+             `Dose total: 7,2 milhões UI`;
 
     if(gestante==="sim"){
       obs="⚠️ Intervalo ideal: 7 dias. Se >9 dias, retratar.";
@@ -136,30 +137,40 @@ function avaliar(){
       notificacao="📌 Notificação obrigatória: SIM\nCritério: Caso sintomático\nTipo: Sífilis adquirida";
     } 
     else{
-      notificacao="📌 Notificação obrigatória: NÃO\nConduta:Realizar busca de histórico clínico e epidemiológico, com investigação para sífilis; em caso confirmatório, instituir tratamento conforme protocolo vigente. Aguardar resultado de VDRL para notificação.\nTipo: Sífilis adquirida";
+      notificacao="📌 Notificação obrigatória: NÃO\nConduta: Tratar e aguardar VDRL para notificação\nTipo: Sífilis adquirida";
     }
   }
 
   document.getElementById("notificacao").innerText = notificacao;
 }
 
-// 🔵 DEFINIÇÕES COMPLETAS RESTAURADAS
+// DEFINIÇÕES ATUALIZADAS CONFORME PROTOCOLO
 function mostrarDefinicoes(){
   alert(
-"SÍFILIS PRIMÁRIA:\nFerida geralmente única no local de entrada da bactéria.\n\n"+
-"SÍFILIS SECUNDÁRIA:\nManchas no corpo, febre, ínguas.\n\n"+
-"SÍFILIS LATENTE:\nAssintomática.\nLatente recente ≤1 ano.\nLatente tardia >1 ano.\n\n"+
-"SÍFILIS TERCIÁRIA:\nLesões cutâneas, ósseas, cardiovasculares e neurológicas."
+"📘 CLASSIFICAÇÃO DA SÍFILIS (BASEADA NO TEMPO DE EVOLUÇÃO)\n\n"+
+
+"🔵 SÍFILIS RECENTE (≤ 1 ano):\n"+
+"- Primária\n- Secundária\n- Latente recente\n\n"+
+"Tratamento:\nBenzilpenicilina benzatina 2,4 milhões UI IM (dose única)\n\n"+
+
+"🟠 SÍFILIS TARDIA (> 1 ano ou tempo ignorado):\n"+
+"- Latente tardia\n- Latente com duração ignorada\n- Terciária\n\n"+
+"Tratamento:\nBenzilpenicilina benzatina 2,4 milhões UI IM\n1x/semana por 3 semanas\nDose total: 7,2 milhões UI\n\n"+
+
+"🔴 NEUROSSÍFILIS:\n"+
+"Tratamento com penicilina cristalina EV por 14 dias\n\n"+
+
+"📌 A classificação define o tratamento."
   );
 }
 
-// 🔵 TESTE RÁPIDO RESTAURADO
 function mostrarTeste(){
   alert(
 "TESTE RÁPIDO PARA SÍFILIS:\n\n"+
-"Se reagente, confirmar com exame laboratorial.\n"+
-"No mesmo dia do início do tratamento, coletar sangue para monitoramento.\n"+
-"Pessoas tratadas podem manter teste reagente mesmo após cura."
+"Se reagente, confirmar com VDRL.\n"+
+"Iniciar tratamento imediatamente.\n"+
+"Coletar exame no mesmo dia.\n"+
+"Teste pode permanecer reagente após cura."
   );
 }
 </script>
