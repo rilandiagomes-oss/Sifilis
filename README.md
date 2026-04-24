@@ -136,7 +136,7 @@ function avaliar(){
       notificacao="📌 Notificação obrigatória: SIM\nCritério: Caso sintomático\nTipo: Sífilis adquirida";
     } 
     else{
-      notificacao="📌 Notificação obrigatória: NÃO\nConduta: Tratar e aguardar VDRL para notificação\nTipo: Sífilis adquirida";
+      notificacao="📌 Notificação obrigatória: NÃO\nConduta: Buscar historico, evidenciando a Sifilis, tratar. Aguardar VDRL para notificação\nTipo: Sífilis adquirida";
     }
   }
 
