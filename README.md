@@ -137,7 +137,7 @@ function avaliar(){
       notificacao="📌 Notificação obrigatória: SIM\nCritério: Caso sintomático\nTipo: Sífilis adquirida";
     } 
     else{
-      notificacao="📌 Notificação obrigatória: NÃO\nConduta: Tratar conforme história clínica e aguardar VDRL para notificação\nTipo: Sífilis adquirida";
+      notificacao="📌 Notificação obrigatória: NÃO\nConduta: Tratar conforme história clínica,atentar para "cicatriz sorológica", Aguardar VDRL para notificação no SINAN \nTipo: Sífilis adquirida";
     }
   }
 
