@@ -169,13 +169,13 @@ function mostrarDefinicoes(){
 - Secundária
 - Latente recente
 
-Tratamento: 1 dose
+Tratamento: 1 dose de Penicilina G benzatina-2.400.000 UI via IM (Glúteo)
 
 🟠 TARDIA (> 1 ano)
 - Latente tardia
 - Terciária
 
-Tratamento: 3 doses
+Tratamento: 3 doses de Penicilina G benzatina-2.400.000 UI, intervalo de 7 dias entre as doses, via IM (Glúteo)
 
 🔴 NEUROSSÍFILIS
 Penicilina cristalina EV 14 dias`
