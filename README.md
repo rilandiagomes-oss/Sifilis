@@ -187,8 +187,8 @@ function mostrarTeste(){
 `TESTE RÁPIDO:
 - Reagente → Tratar conforme histórico
 - Solicitar VDRL
-- Notificar se for gestante.
--Para população geral, notificar se apresentar sintomas, caso não apresente, necessario aguardar realização de VDRL `
+-Para gestante necessário notificar no SINAN (sintomática ou assintomática).
+-Para população geral, SINTOMÁTICA notifica no SINAN. Para os ASSINTOMÁTICOS é necessário aguardar realização de VDRL para notificação.`
   );
 }
 </script>
