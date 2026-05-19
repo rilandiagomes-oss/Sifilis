@@ -28,7 +28,7 @@
 <div class="box">
   <h2>Apoio à decisão – Sífilis</h2>
 
-  <button class="info-btn" onclick="mostrarDefinicoes()">📘 Definições sobre Sífilis</button>
+  <button class="info-btn" onclick="mostrarDefinicoes()">📘 Classificação da Sífilis</button>
   <button class="info-btn" onclick="mostrarTeste()">🧪 Teste Rápido</button>
   <button class="pasta-btn" onclick="abrirPasta()">📂 Notificações / Normas</button>
 
